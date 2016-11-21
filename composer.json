@@ -1,0 +1,27 @@
+{
+    "name": "lucascourot/ping-pong",
+    "description": "Pair programming ping pong",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucas Courot",
+            "email": "lucas@courot.com"
+        }
+    ],
+    "keywords": [
+        "TDD",
+        "Pair programming",
+        "Coding dojo"
+    ],
+    "autoload": {
+        "psr-4": {
+            "LucasCourot\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^3.1"
+    }
+}
