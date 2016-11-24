@@ -8,7 +8,7 @@ phpspec: vendor
 install: vendor
 
 vendor: composer.phar composer.json
-	php -n composer.phar install
+	php composer.phar install
 
 composer.phar:
 	php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
